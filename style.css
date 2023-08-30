@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background: radial-gradient(pink,skyblue,black)
+}
+
+#containerBg{
+    width: 100%;
+    height: 550vh;
+}
+
+#containerBg img{
+    margin-left: 10px;
+}
+
+#containerBg #menu{
+    text-shadow: none;
+}
+
+#containerBg #about{
+    height: 100vh;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+#containerBg #about #contact a{
+    color: black;
+    text-shadow: 3px 3px 5px white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#containerBg #education{
+    height: 100vh;
+}
+
+#containerBg #education h1{
+    color: white;
+    text-shadow: 3px 3px 5px black; 
+}
+
+#containerBg #education #accordionEdu .accordion-item{
+    background: transparent;
+    border: 2px solid black;
+    color: white;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black; 
+}
+
+#containerBg #project{
+    height: 100vh;
+}
+
+#containerBg #project h1, p{
+    color: white;
+    text-shadow: 3px 3px 5px black; 
+
+}
+
+#containerBg #work{
+    margin-top: 80px;
+}
+
+#containerBg #work ul li{
+    color: white;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
